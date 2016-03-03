@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+
+<title>Python 的练手项目有哪些值得推荐？ - 小小搬运工的回答 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://answers/88624507">
+<meta property="og:description" content="更新：兄弟们如此给力，小弟受宠若惊，好东西就是用来分享的。 500 line or less只是某个系列丛书中第四本，其他三本链接：http://www.aosabook.org/en/index.html 可以在线看哦前两本每章介绍出名开源软件的架构，你说的上名字的开源基本上都能找到，短小精悍的介绍框架第三…" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/question/29372574/answer/88624507">
+<meta id="znonce" name="znonce" content="de1930dfe35d48ab8130520bc4e22c9b">
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.f361b474.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.346e7055.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.3101f5fe.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.a6575a64.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.7ee78b96.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+<meta property="qc:admins" content="14414345146201056375" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.4b42dd60.js"></script>
+
+<link rel="canonical" href="https://www.zhihu.com/question/29372574" />
+
+</head>
+
+<body class="zhi ">
+
+
+
+<div role="navigation" class="zu-top">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="question">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" placeholder="搜索问题、话题或人">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+
+</li>
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix with-indention-votebar"  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+
+
+<div class="zm-tag-editor zg-section">
+<div class="zm-tag-editor-labels zg-clear">
+
+<a class="zm-item-tag"
+href="/topic/19552832"
+data-tip="t$b$19552832" data-token="19552832" data-topicid="872">
+Python
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19554298"
+data-tip="t$b$19554298" data-token="19554298" data-topicid="1354">
+编程
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19661050"
+data-tip="t$b$19661050" data-token="19661050" data-topicid="37027">
+Python 入门
+</a>
+
+</div>
+</div>
+<div id="zh-question-title" data-editable="false">
+
+<h2 class="zm-item-title zm-editable-content">
+
+<a href="/question/29372574">Python 的练手项目有哪些值得推荐？</a>
+
+</h2>
+</div>
+<div id="zh-question-detail" class="zm-item-rich-text" data-resourceid="3931839" data-action="/question/detail">
+
+<div class="zm-editable-content"><p>我不是伸手党，在网上搜了很多类似的问答，没有很满意的答案。我基本上把python的基本语法看完了，还花了一个月左右的时间</p><blockquote><p><a href="//link.zhihu.com/?target=https%3A//github.com/Yixiaohan/show-me-the-code" class=" wrap external" target="_blank" rel="nofollow noreferrer">Yixiaohan/show-me-the-code · GitHub<i class="icon-external"></i></a></p></blockquote><p>里面的题目啃完了，对python有了一个大致的了解，现在想用python来做一个完整的项目，有没有大神推荐github上的项目，我自己大致看了一下，觉得这个基于node.js的豆瓣命令行很不错：</p><p><img src="https://pic4.zhimg.com/6868a17911abfed6f2b1a4f064d37d8f_b.jpg" data-rawwidth="600" data-rawheight="322" class="origin_image zh-lightbox-thumb" data-original="https://pic4.zhimg.com/6868a17911abfed6f2b1a4f064d37d8f_r.jpg">想用python重写一遍，不料我身边已经有同学捷足先登了，提前实现了，这即使我做完之后都不好意思在他面前装逼了，不知道各位还有没有发现别的不错的python项目，最好是综合性的，不要是网站，谢了，题主是一个计算机相关专业大三学生，有一定编程基础。</p></div>
+
+
+</div>
+<div class="zm-item-meta zm-item-comment-el clearfix" id="zh-question-meta-wrap">
+<div class="zm-meta-panel">
+
+<a href="#" name="addcomment" class="toggle-comment meta-item">
+<i class="z-icon-comment"></i>12 条评论
+</a>
+<a href="#" name="share" class="share meta-item">
+<i class="z-icon-share"></i>分享
+</a>
+
+</div>
+<div class="panel-container">
+
+</div>
+</div>
+<div class="zh-question-answer-summary-wrap zm-item-rich-text" id="zh-question-answer-summary-wrap" style="display:none;">
+<h3>
+<a href="http://www.zhihu.com/question/20014415" target="_blank" class="zg-right zg-link-litblue" style="font-weight:normal">什么是答案总结？</a>
+答案总结</h3>
+<div id="zh-question-answer-summary" class="zg-section"
+data-resourceid="3931839" data-action="/question/summary">
+
+<div class="zm-editable-content"></div>
+
+</div>
+</div>
+
+<div class="zh-answers-title">
+<h3><a href="/question/29372574" class="zg-link-litblue">查看全部 30 个回答</a></h3>
+</div>
+
+<div id="zh-question-answer-wrap" class="zh-question-answer-wrapper autohide-false"
+data-widget="navigable" data-navigable-options="{&quot;items&quot;:&quot;&gt;.zm-item-answer&quot;}"
+style="border-bottom:none;">
+
+<div tabindex="-1" class="zm-item-answer  zm-item-expanded"
+
+itemscope itemtype="http://schema.org/Answer"
+data-aid="30884560"
+data-atoken="88624507"
+data-collapsed="0"
+data-created="1456734884"
+data-deleted="0"
+data-helpful="1"
+data-isowner="0"
+data-copyable="1"
+
+
+>
+<a class="zg-anchor-hidden" name="answer-30884560"></a>
+
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1065</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+<div class="zm-item-answer-author-info">
+
+<a class="zm-item-link-avatar avatar-link" href="/people/zhang-peng-cheng-67-42" data-tip="p$t$zhang-peng-cheng-67-42">
+<img src="https://pic2.zhimg.com/76651487853d795da745ee261b5d0955_s.jpg" class="zm-list-avatar avatar">
+</a>
+
+<a class="author-link" data-tip="p$t$zhang-peng-cheng-67-42" href="/people/zhang-peng-cheng-67-42">小小搬运工</a><span title="...." class="bio">，....</span>
+</div>
+<div class="zm-item-vote-info " data-votecount="1065">
+
+<span class="voters">
+<span class="user-block"><a data-tip="p$t$ricardo-zhang" href="https://www.zhihu.com/people/ricardo-zhang" class="zg-link" title="Ricardo Zhang">Ricardo Zhang</a>、</span><span class="user-block"><a data-tip="p$t$zhang-xiao-lun" href="https://www.zhihu.com/people/zhang-xiao-lun" class="zg-link" title="张伦">张伦</a>、</span><span class="user-block"><a data-tip="p$t$kevin-xdu" href="https://www.zhihu.com/people/kevin-xdu" class="zg-link" title="kevin">kevin</a></span>
+</span>
+
+
+<a href="javascript:;" class="more"> 等人赞同</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text js-collapse-body" data-resourceid="3931839" data-action="/answer/content" data-author-name="小小搬运工" data-entry-url="/question/29372574/answer/88624507">
+
+
+<div class="zh-summary summary clearfix" style="display:none;">
+
+更新：兄弟们如此给力，小弟受宠若惊，好东西就是用来分享的。 500 line or less只是某个系列丛书中第四本，其他三本链接：<a href="//link.zhihu.com/?target=http%3A//www.aosabook.org/en/index.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://www.</span><span class="visible">aosabook.org/en/index.h</span><span class="invisible">tml</span><span class="ellipsis"></span><i class="icon-external"></i></a>可以在线看哦前两本每章介绍出名开源软件的架构，你说的上名字的开源基本上都能找到，短小精悍的介绍框架第三…
+
+<a href="/question/29372574/answer/88624507" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+<div class="zm-editable-content clearfix">
+更新：兄弟们如此给力，小弟受宠若惊，好东西就是用来分享的。 500 line or less只是某个系列丛书中第四本，其他三本链接：<br><a href="//link.zhihu.com/?target=http%3A//www.aosabook.org/en/index.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://www.</span><span class="visible">aosabook.org/en/index.h</span><span class="invisible">tml</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>可以在线看哦<br>前两本每章介绍出名开源软件的架构，你说的上名字的开源基本上都能找到，短小精悍的介绍框架<br>第三本介绍开源软件中实际遇到的一些performance的问题以及解决方案，同样浓缩啊！！ 每章的作者大多就是此开软软件的开发者啊！！！<br>不用多说，点开你就知道啊<br>不想看英文的怒点 <a href="//link.zhihu.com/?target=http%3A//www.ituring.com.cn/article/13057" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://www.</span><span class="visible">ituring.com.cn/article/</span><span class="invisible">13057</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>前两卷的中文版，不知道翻译的怎么样<br><br>----------------------------------------割了你--------------------------------------------------------------<br><br>和楼主一样在学习python， 最近找到一本python神书 500 line or less. 有兄弟提到了git的源码，这里不只是源码，而是这么一本书，目前还没出版，但是在网上有已经看到了 review版本。<br>强烈推荐！！！<br>强烈推荐！！！<br>强力推荐！！！<br>这本书共16个章节，每章均是由该领域的大牛完成，用不到500行的代码实现一个特（装）定（逼）功能。<br>本书链接 <a href="//link.zhihu.com/?target=http%3A//aosabook.org/blog/" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/blog/</span><span class="invisible"></span><i class="icon-external"></i></a><br>目录页：<a href="//link.zhihu.com/?target=http%3A//aosabook.org/blog/" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/blog/</span><span class="invisible"></span><i class="icon-external"></i></a><br>以下是章节目录，每一章都让你热血澎湃，看完介绍你就向往下读。<br>1. A Template Engine （<a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/a-template-engine.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/a-</span><span class="invisible">template-engine.html</span><span class="ellipsis"></span><i class="icon-external"></i></a>）<br>    MVC模型中的view层如何解析html中的静态变量和简单的语句，如下：<br><br><div class="highlight"><pre><code class="language-text">&lt;p&gt;Welcome, {name}!&lt;/p&gt;
+&lt;p&gt;Products:&lt;/p&gt;
+&lt;ul&gt;
+{products}
+&lt;/ul&gt;
+</code></pre></div>web中的view层不只是html代码，还有支持其他的代码。比如 {products}是一个变量。 同时view层还支持{if} , {for}, {foreach}等等。django，velocity等是如何解析他们的？<br>大牛用不到500行代码告诉你，是如何实现的？ （不是替换，替换需要每次请求都需要解析）<br><br>2. Web Spreadsheet （<a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/web-spreadsheet.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/we</span><span class="invisible">b-spreadsheet.html</span><span class="ellipsis"></span><i class="icon-external"></i></a>）<br>   web的电子表格如何实现的？ 好像比较简单，但是介绍了 web storage 和 web worker，还是很值得一看的<br><br>3. A Web Crawler <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/a-</span><span class="invisible">web-crawler-with-asyncio-coroutines.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>   不多说，几百行代码实现高效的网络爬虫， 高效！<br><br>4. Static Analysis <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/static-analysis.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/st</span><span class="invisible">atic-analysis.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>     成熟的IDE都有代码检查和代码提示，怎么做的？ 看这章<br><br>5. Clustering by Consensus <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/clustering-by-consensus.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/cl</span><span class="invisible">ustering-by-consensus.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>    分布式系统 paxos原理与实现。不知道paxos说明你没接触过分布式体统，接触过分布式还不懂，说明你只会用分布式系统<br><br>6. A Simple Object Modle <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/a-simple-object-model.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/a-</span><span class="invisible">simple-object-model.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>    Python是面向对象语言，对象，继承，多态，怎么用代码实现的，不到500行代码，实际不到400 行， 666.。。<br><br>7. An Archaeology-Inspired Database <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/an-archaeology-inspired-database.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/an</span><span class="invisible">-archaeology-inspired-database.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>    如何用python实现一个数据库，支持 query，index, transaction， 2，3百行代码和对每个函数的讲解。看完你就知道知道数据库原理，太值了<br><br>8. Dog Bed Database <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/dbdb-dog-bed-database.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/db</span><span class="invisible">db-dog-bed-database.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>   类似上一章，不过这次实现的是key-value的非关系型数据库，详细的讲解和2，3百行代码<br><br>9. A 3D Modeller <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/a-3d-modeller.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/a-</span><span class="invisible">3d-modeller.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>    用python实现一个3D设计，显示到屏幕，可以交互。不是很懂，但不明觉厉<br><br>10. A Python Interpreter Written in Python <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/a-python-interpreter-written-in-python.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/a-</span><span class="invisible">python-interpreter-written-in-python.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>      手把手教你如何实现python解析器。<br><br>11. A Pedometer in the Real World <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/a-pedometer-in-the-real-world.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/a-</span><span class="invisible">pedometer-in-the-real-world.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>       你用过手机应用记录你每天走的步数，然后发送到朋友圈吗？ （没有？ 没关系。）这章告诉你如何实现步数记录，怎么算走一步。手机中有加速记，很容易获得你某一时刻在x,y,z三个方向的加速度，用这些参数，如何计算你走了多少步？ 知道吗？ 不知道，看这章，讲解加实现<br><br>12. A Continuous Intergration System <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/a-continuous-integration-system.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/a-</span><span class="invisible">continuous-integration-system.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>      CI System是一个专门用来测试新代码的系统，根据代码提交记录，拿到新的代码，测试，生成报告。这不是关键，关键是 如果test失败，它还会 恢复，然后从失败的那个点在跑，相当于把出错环境重现了。。。<br><br>13 A Rejection Sampler <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/a-rejection-sampler.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/a-</span><span class="invisible">rejection-sampler.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>      不是很懂，和机器学习相关，如何 计算你赢得象棋比赛的概率，天气对飞机的影响等类似的问题<br><br>14 A visual programming toolkit <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/blockcode-a-visual-programming-toolkit.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/bl</span><span class="invisible">ockcode-a-visual-programming-toolkit.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>      不太明白<br><br>15.  A Flow Shop Scheduler <a href="//link.zhihu.com/?target=http%3A//aosabook.org/en/500L/a-flow-shop-scheduler.html" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">aosabook.org/en/500L/a-</span><span class="invisible">flow-shop-scheduler.html</span><span class="ellipsis"></span><i class="icon-external"></i></a><br>      flowshop调度问题，好像很出名的样子，最优化问题，如何从局部最优解找全局最优解<br><br>16  Optical Character Recognition<br>      几百行代码使用人工神经网络实现识别手写字母。。。<br><br>github源码：<a href="//link.zhihu.com/?target=https%3A//github.com/aosabook/500lines/blob/master/README.md" class=" wrap external" target="_blank" rel="nofollow noreferrer">500lines/README.md at master · aosabook/500lines · GitHub<i class="icon-external"></i></a>
+
+</div>
+
+</div>
+<a class="zg-anchor-hidden ac" name="30884560-comment"></a>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+<div class="zm-meta-panel">
+
+<span class="answer-date-link-wrap">
+<a class="answer-date-link last_updated meta-item" data-tip="s$t$发布于 2016-02-29" target="_blank" href="/question/29372574/answer/88624507">编辑于 2016-03-01</a>
+</span>
+
+<a href="#" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>30 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide" name="thanks" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="#" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" name="nohelp" class="meta-item zu-autohide">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" name="report" class="meta-item zu-autohide">举报</a>
+
+
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright"> 作者保留权利 </a>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="more-awesome"><span>更多回答</span></div>
+<div class="awesome-answer-list">
+
+<div class="feed-item">
+<div class="content">
+<div class="entry-body "
+data-aid="30932608"
+data-atoken="88744491"
+data-collapsed="False"
+data-created="1456810657"
+data-deleted="0"
+data-isowner="0"
+data-helpful="1"
+data-score="0"
+data-copyable="1"
+>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-votecount="466">466</a>
+</div>
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">466</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+<div class="zm-item-answer-detail">
+<div class="zm-item-answer-author-info">
+
+<a class="author-link" data-tip="p$t$shi-wei-56-10" href="/people/shi-wei-56-10">石伟</a><span title="程序员~shiyanlou.com" class="bio">，程序员~<a href="//link.zhihu.com/?target=http%3A//shiyanlou.com" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://</span><span class="visible">shiyanlou.com</span><span class="invisible"></span><i class="icon-external"></i></a></span>
+</div>
+<div class="zm-item-vote-info " data-votecount="466">
+
+<span class="voters">
+<span class="user-block"><a data-tip="p$t$dreamapple" href="https://www.zhihu.com/people/dreamapple" class="zg-link" title="Dreamapple">Dreamapple</a>、</span><span class="user-block"><a data-tip="p$t$xiao-shi-di-37" href="https://www.zhihu.com/people/xiao-shi-di-37" class="zg-link" title="小师弟">小师弟</a>、</span><span class="user-block"><a data-tip="p$t$zhang-zhi-zhong" href="https://www.zhihu.com/people/zhang-zhi-zhong" class="zg-link" title="血溅八方">血溅八方</a></span>
+</span>
+
+
+<a href="javascript:;" class="more"> 等人赞同</a>
+
+
+</div>
+<div class="zm-item-rich-text js-collapse-body" data-resourceid="3931839" data-action="/answer/content" data-author-name="石伟" data-entry-url="/question/29372574/answer/88744491">
+
+<textarea class="content hidden">
+最近几天刚好在整理Python项目，25个项目由易到难，代码量从几十行到几千行，在实验环境里保证可以全部完成。找到你认为有趣的去实现它，把项目做出来，知识才能变成自己的：）&lt;br&gt;(建议大家PC端访问，边看教程边在环境里动手实践，手机上仅可查看教程)&lt;br&gt;&lt;br&gt;1.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/370&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - Python 图片转字符画&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;50 行 Python 代码完成图片转字符画小工具。&lt;br&gt;&lt;img data-rawheight=&quot;288&quot; data-rawwidth=&quot;554&quot; src=&quot;https://pic1.zhimg.com/739f35ab6c535fcb83d16a02693fa5f4_b.png&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;554&quot; data-original=&quot;https://pic1.zhimg.com/739f35ab6c535fcb83d16a02693fa5f4_r.png&quot;&gt;2.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/368&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 200行Python代码实现2048&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;仅用200行的python代码完成2048小游戏的编写。&lt;br&gt;3.&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/267&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - python自动填问卷星&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;4.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/47&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Linux - Linux桌面词典&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;基于pygtk的linux有道词典。&lt;br&gt;&lt;img data-rawheight=&quot;262&quot; data-rawwidth=&quot;550&quot; src=&quot;https://pic3.zhimg.com/ddf9ef7f233d3cf374d1427a5c83aeda_b.png&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;550&quot; data-original=&quot;https://pic3.zhimg.com/ddf9ef7f233d3cf374d1427a5c83aeda_r.png&quot;&gt;5.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/382&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - python生成汉字图片字库&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用pygame和PIL模块渲染字体生成字库。&lt;br&gt;6.&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/302&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 基于 Python 的文件备份&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;Python 做个简单的备份脚本程序，可以备份主目录和系统文件等。&lt;br&gt;7.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/60&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - Python开发简单计算器&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用Python语言开发一个简单的加减法计算器，学习表达式二叉树的生产与遍历方法。&lt;br&gt;8. &lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/142&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 基于scrapy爬虫的天气数据采集(python)&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;9.&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/49&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - pygame开发打飞机游戏&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用Python快速开发一款PC端玩耍的微信打飞机游戏，基于pygame实现。&lt;br&gt;10.&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/70&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - Python文本解析器&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用Python来解析纯文本生成一个HTML页面的小程序。&lt;br&gt;11.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/79&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - Python聊天室&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用python来实现简单聊天室程序的服务器端和客户端。&lt;br&gt;12.&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/308&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 多张图片拼接与层叠&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;几百张图片拼接成一张图片，这张图片再与另外一张图片层叠在一块。&lt;br&gt;13.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/364&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - Python 破解验证码&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;通过一个简单的例子来讲解破解验证码的原理。&lt;br&gt;14.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/427&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 用Python做2048游戏&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;通过GUI来体验编程的乐趣。&lt;br&gt;15.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/495&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - Python 实现端口扫描器&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用 Python 语言开发服务器端口扫描器，用来检测目标服务器上有哪些端口开放。&lt;br&gt;16.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/385&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 使用python编写虚拟解释器&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用python编写一个虚拟解释器，学习解释器的构建流程。&lt;br&gt;17.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/481&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 基于python的网络小爬虫&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;单线程python爬虫，爬模特图片。&lt;br&gt;18.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/112&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 简单的http代理服务器&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;本项目课程是基于 Python 实现的一个简单的 HTTP 代理服务器。&lt;br&gt;&lt;b&gt;进阶篇&lt;/b&gt;&lt;br&gt;19.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/359&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 基于Flask/RethinkDB/Backbone.js实现TODO List&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用 RethinkDB，Flask 与 Backbone.js 制作一个简单的 todo list。&lt;br&gt;20.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/31&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - Flask开发轻博客&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用Python Flask Web框架开发一个具备基本功能的轻博客平台，在其中学习Python的Web开发。&lt;br&gt;21.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/487&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - Django 搭建简易博客&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;本教程介绍如何一步步使用 Django 开发一个简单的博客 Web应用，涉及 Django Web开发，MVC，Template等知识点，适用于有 Python 和 Django 基础的同学。&lt;br&gt;&lt;img data-rawheight=&quot;390&quot; data-rawwidth=&quot;551&quot; src=&quot;https://pic4.zhimg.com/c510d04d5e6cd7c37b572564c8bb54bf_b.png&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;551&quot; data-original=&quot;https://pic4.zhimg.com/c510d04d5e6cd7c37b572564c8bb54bf_r.png&quot;&gt;&lt;b&gt;综合篇&lt;/b&gt;&lt;br&gt;23.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/354&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 仿OpenStack开发云计算管理软件&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用Python语言开发一套类似OpenStack的云计算管理平台LouCloud，具备基本的用户，服务器，镜像与虚拟机管理功能。&lt;br&gt;24.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/355&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - 仿StackOverflow开发在线问答系统&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;使用Python Flask Web开发框架实现一套类似StackOverflow的在线问答平台LouQA，具备提问，回答，评论点赞等功能。&lt;br&gt;25.&lt;a class=&quot; wrap external&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/356&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Python - Python版设计模式实践&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;多种常见的设计模式的原理以及如何应用实践,涵盖工程模式，命令模式，外观模式，适配器模式，装饰模式，代理模式等。
+
+
+</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img data-rawheight="288" data-rawwidth="554" src="https://pic1.zhimg.com/739f35ab6c535fcb83d16a02693fa5f4_200x112.png" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/739f35ab6c535fcb83d16a02693fa5f4_r.png">
+最近几天刚好在整理Python项目，25个项目由易到难，代码量从几十行到几千行，在实验环境里保证可以全部完成。找到你认为有趣的去实现它，把项目做出来，知识才能变成自己的：）(建议大家PC端访问，边看教程边在环境里动手实践，手机上仅可查看教程)1.<a class=" wrap external" href="//link.zhihu.com/?target=https%3A//www.shiyanlou.com/courses/370" target="_blank" rel="nofollow noreferrer">Python…<i class="icon-external"></i></a>
+
+<a href="/question/29372574/answer/88744491" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+<a class="zg-anchor-hidden ac" name="30932608-comment"></a>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+<div class="zm-meta-panel">
+
+<span class="answer-date-link-wrap">
+<a class="answer-date-link last_updated meta-item" data-tip="s$t$发布于 2016-03-01" target="_blank" href="/question/29372574/answer/88744491">编辑于 昨天 13:26</a>
+</span>
+
+<a href="#" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>17 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide" name="thanks" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="#" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" name="nohelp" class="meta-item zu-autohide">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" name="report" class="meta-item zu-autohide">举报</a>
+
+
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright"> 作者保留权利 </a>
+
+
+
+</div>
+</div>
+</div>
+
+<div class="feed-item">
+<div class="content">
+<div class="entry-body "
+data-aid="13117288"
+data-atoken="44306620"
+data-collapsed="False"
+data-created="1428562840"
+data-deleted="0"
+data-isowner="0"
+data-helpful="1"
+data-score="0"
+data-copyable="1"
+>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-votecount="1302">1302</a>
+</div>
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1302</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+<div class="zm-item-answer-detail">
+<div class="zm-item-answer-author-info">
+
+<span class="name">知乎用户</span><span title="少看一二，常想八九" class="bio">，少看一二，常想八九</span>
+</div>
+<div class="zm-item-vote-info " data-votecount="1302">
+
+<span class="voters">
+<span class="user-block"><a data-tip="p$t$ri-yue-tong-hui-3" href="https://www.zhihu.com/people/ri-yue-tong-hui-3" class="zg-link" title="日月同辉">日月同辉</a>、</span><span class="user-block"><a data-tip="p$t$yu-bing-zhu" href="https://www.zhihu.com/people/yu-bing-zhu" class="zg-link" title="玉冰竹">玉冰竹</a>、</span><span class="user-block"><a data-tip="p$t$zhang-zhu-26-24" href="https://www.zhihu.com/people/zhang-zhu-26-24" class="zg-link" title="宝丁">宝丁</a></span>
+</span>
+
+
+<a href="javascript:;" class="more"> 等人赞同</a>
+
+
+</div>
+<div class="zm-item-rich-text js-collapse-body" data-resourceid="3931839" data-action="/answer/content" data-author-name="Ryan Yu" data-entry-url="/question/29372574/answer/44306620">
+
+<textarea class="content hidden">
+10个Python练手项目：&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-practice-1.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习一：即时标记&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-reportlab.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习二：画幅好画&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-pro-powerfullxml.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习三：万能的XML&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-pro4-newsagent.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习四：新闻聚合&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project5-socketchat.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习五：虚拟茶话会&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project6-cgi.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习六：使用CGI进行远程编辑&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project7-board.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习七：自定义公告板&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project8-xml-rpc.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习八：使用XML-RPC进行远程文件共享&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project9-p2p-gui.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习九：文件共享2-GUI版本&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project10-diy-game.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;python项目练习十：DIY街机游戏&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;其实，我觉得LZ可以找份兼职或者实习做做，既能锻炼能力还能有份额外的收入
+
+
+</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+10个Python练手项目：<a href="//link.zhihu.com/?target=http%3A//www.the5fire.com/python-practice-1.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">python项目练习一：即时标记<i class="icon-external"></i></a><a href="//link.zhihu.com/?target=http%3A//www.the5fire.com/python-reportlab.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">python项目练习二：画幅好画<i class="icon-external"></i></a><a href="//link.zhihu.com/?target=http%3A//www.the5fire.com/python-pro-powerfullxml.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">python项目练习三：万能的XML<i class="icon-external"></i></a><a href="//link.zhihu.com/?target=http%3A//www.the5fire.com/python-pro4-newsagent.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">python项目练习四：新闻聚合<i class="icon-external"></i></a><a href="//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project5-socketchat.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">python项目练习五：虚拟茶话会<i class="icon-external"></i></a><a href="//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project6-cgi.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">python项目练习六：使用CGI进行远程编辑<i class="icon-external"></i></a><a href="//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project7-board.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">python项目练习七：自定义公告板<i class="icon-external"></i></a><a href="//link.zhihu.com/?target=http%3A//www.the5fire.com/python-project8-xml-rpc.html" class=" wrap external" target="_blank" rel="nofollow noreferrer">python项目练习八：…<i class="icon-external"></i></a>
+
+<a href="/question/29372574/answer/44306620" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+<a class="zg-anchor-hidden ac" name="13117288-comment"></a>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+<div class="zm-meta-panel">
+
+<span class="answer-date-link-wrap">
+<a class="answer-date-link meta-item" target="_blank" href="/question/29372574/answer/44306620">发布于 2015-04-09</a>
+</span>
+
+<a href="#" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>134 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide" name="thanks" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="#" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" name="nohelp" class="meta-item zu-autohide">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" name="report" class="meta-item zu-autohide">举报</a>
+
+
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright"> 作者保留权利 </a>
+
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="zh-answers-title">
+<h3><a href="/question/29372574" class="zg-link-litblue">查看全部 30 个回答</a></h3>
+</div>
+<div class="zu-answer-form-disabled-wrap" id="zh-single-answer-disable-wrap" style="display:none"></div>
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar">
+
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="SignFlow SignFlow--bordered" id="SidebarSignFlow">
+<div class="SignFlow-panel">
+<div class="title register">
+<h1>加入知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view register SignupForm">
+<form action="/register/email">
+<div class="input-wrapper">
+<input type="text" name="fullname" aria-label="姓名" data-placeholder="姓名" required>
+</div>
+<div class="input-wrapper">
+
+<input type="text" name="phone_num" class="account" aria-label="手机号（仅支持中国大陆）" data-placeholder="手机号（仅支持中国大陆）" required>
+
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" hidden> 
+<input type="password" name="password" aria-label="密码" data-placeholder="密码（不少于 6 位）" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" >
+<input id="captcha" name="captcha" placeholder="验证码" required>
+<div class="captcha-container">
+
+<img class="js-refresh-captcha captcha" width="120" height="30" data-tip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="注册" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<span>已有帐号？<a href="#" class="switch-to-login">登录</a></span>
+<button type="button" class="js-show-sns-buttons is-visible">社交帐号登录</button>
+<div class="sns-buttons">
+<button type="button" class="wechat"><span class="ico sprite-global-icon-wechat-gray"></span>微信</button>
+<button type="button" class="weibo"><span class="ico sprite-global-icon-weibo-gray"></span>微博</button>
+<button type="button" class="qq"><span class="ico sprite-global-icon-qq-gray"></span>QQ</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="SignFlow-panel" hidden>
+<div class="LoginForm">
+<div class="title login">
+<h1>登录知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view login">
+<form method="POST">
+<div class="input-wrapper">
+<input type="text" name="account" class="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱" required>
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="actions">
+
+<input type="submit" value="登录" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<label class="remember-me"><input type="checkbox" name="remember_me" checked value="true">记住我</label>
+<span class="middot">·</span>
+<button class="unable-login" type="button">无法登录？</button>
+<button type="button" class="js-show-sns-buttons is-visible">社交帐号登录</button>
+<div class="sns-buttons">
+<button type="button" class="wechat"><span class="ico sprite-global-icon-wechat-gray"></span>微信</button>
+<button type="button" class="weibo"><span class="ico sprite-global-icon-weibo-gray"></span>微博</button>
+<button type="button" class="qq"><span class="ico sprite-global-icon-qq-gray"></span>QQ</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner zg-gray-normal" id="zh-question-side-header-wrap">
+<button data-follow="q:m:button" class="follow-button zg-follow zg-btn-green" data-id="3931839">关注问题</button>
+
+9143
+人关注该问题
+
+</div>
+</div>
+
+<div class="zm-side-section sidebar-author-info clearfix">
+<div class="zm-side-section-inner" id="js-sidebar-author-info">
+<h3>关于作者</h3>
+<div class="zm-profile-card zm-profile-section-item zg-clear no-hovercard">
+<div class="zg-right">
+<button data-follow="m:button" data-id="5a89e9dce88916bd01000d7f9985af94" class="zg-btn zg-btn-follow zm-rich-follow-btn small nth-0">关注他</button>
+</div>
+<a title="小小搬运工"
+data-tip="p$t$zhang-peng-cheng-67-42"
+class="zm-item-link-avatar"
+href="/people/zhang-peng-cheng-67-42">
+<img src="https://pic2.zhimg.com/76651487853d795da745ee261b5d0955_m.jpg" class="zm-item-img-avatar">
+</a>
+<div class="zm-list-content-medium">
+<h2 class="zm-list-content-title"><a data-tip="p$t$zhang-peng-cheng-67-42" href="https://www.zhihu.com/people/zhang-peng-cheng-67-42" class="zg-link" title="小小搬运工">小小搬运工</a></h2>
+
+<div class="zg-big-gray">....</div>
+<div class="details zg-gray">
+<a target="_blank" href="/people/zhang-peng-cheng-67-42/followers" class="zg-link-gray-normal">32 关注者</a>
+/
+<a target="_blank" href="/people/zhang-peng-cheng-67-42/asks" class="zg-link-gray-normal">0 提问</a>
+/
+<a target="_blank" href="/people/zhang-peng-cheng-67-42/answers" class="zg-link-gray-normal">1 回答</a>
+/
+<a target="_blank" href="/people/zhang-peng-cheng-67-42" class="zg-link-gray-normal">1065 赞同</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="shameimaru-placeholder" data-loc="answer_up" data-params='{&quot;question_token&quot;: 29372574}'></div>
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<h3>被收藏 <a href="/question/29372574/answer/88624507/collections" data-za-c="collect" data-za-a="click_answer_collected_count" data-za-l="sidebar_answer_collected_count">2116</a> 次</h3>
+<div id="zh-fav-list-side-related">
+
+<div class="zm-item" id="mi-1378908605">
+<h2 class="zm-item-title ">
+<a href="/collection/26444956">总有一天能用到的资料</a>
+</h2>
+<div class="zm-item-meta">
+
+<a href="/people/cai-zhi-xiang" data-tip="p$t$cai-zhi-xiang" class="zg-link-litblue"> 蔡先生 </a> 创建
+
+
+<span style="color: #dddddd;">&nbsp;|&nbsp;</span>
+<a class="zg-link-gray" href="/collection/26444956/followers" data-za-c="collect" data-za-a="visit_answer_collections" data-za-l="sidebar_answer_collection_followed_count">17420 人关注</a>
+
+</div>
+</div>
+
+<div class="zm-item" id="mi-1354724176">
+<h2 class="zm-item-title ">
+<a href="/collection/19777126">工作学习相关</a>
+</h2>
+<div class="zm-item-meta">
+
+<a href="/people/lanyusea" data-tip="p$t$lanyusea" class="zg-link-litblue"> 水无痕 </a> 创建
+
+
+<span style="color: #dddddd;">&nbsp;|&nbsp;</span>
+<a class="zg-link-gray" href="/collection/19777126/followers" data-za-c="collect" data-za-a="visit_answer_collections" data-za-l="sidebar_answer_collection_followed_count">1848 人关注</a>
+
+</div>
+</div>
+
+<div class="zm-item" id="mi-1348654047">
+<h2 class="zm-item-title ">
+<a href="/collection/19704465">百宝箱</a>
+</h2>
+<div class="zm-item-meta">
+
+<a href="/people/liu-gao-yuan" data-tip="p$t$liu-gao-yuan" class="zg-link-litblue"> 刘高源 </a> 创建
+
+
+<span style="color: #dddddd;">&nbsp;|&nbsp;</span>
+<a class="zg-link-gray" href="/collection/19704465/followers" data-za-c="collect" data-za-a="visit_answer_collections" data-za-l="sidebar_answer_collection_followed_count">949 人关注</a>
+
+</div>
+</div>
+
+<div class="zm-item" id="mi-1331940078">
+<h2 class="zm-item-title ">
+<a href="/collection/19604821">编程之路</a>
+</h2>
+<div class="zm-item-meta">
+
+<span class="zg-gray"> 知乎用户 </span> 创建
+
+
+<span style="color: #dddddd;">&nbsp;|&nbsp;</span>
+<a class="zg-link-gray" href="/collection/19604821/followers" data-za-c="collect" data-za-a="visit_answer_collections" data-za-l="sidebar_answer_collection_followed_count">947 人关注</a>
+
+</div>
+</div>
+
+<div class="zm-item" id="mi-1423719491">
+<h2 class="zm-item-title ">
+<a href="/collection/44825647">干货知识</a>
+</h2>
+<div class="zm-item-meta">
+
+<a href="/people/arc-miracle" data-tip="p$t$arc-miracle" class="zg-link-litblue"> arc Miracle </a> 创建
+
+
+<span style="color: #dddddd;">&nbsp;|&nbsp;</span>
+<a class="zg-link-gray" href="/collection/44825647/followers" data-za-c="collect" data-za-a="visit_answer_collections" data-za-l="sidebar_answer_collection_followed_count">762 人关注</a>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div id="zh-question-related-questions" class="zh-question-related-questions clearfix">
+
+<a class="zg-right next">换一换</a>
+
+<h3>相关问题</h3>
+<ul itemprop="relatedQuestion" itemscope itemtype="http://schema.org/ItemList">
+
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/28354642">对于一个开源 Python 量化交易平台项目的建议有哪些？</a> <span class="num">21 个回答</span><meta itemprop="followerCount" content="2441" /></li>
+
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/21747474">会一门脚本语言，学 bash 就显得浪费时间？</a> <span class="num">46 个回答</span><meta itemprop="followerCount" content="360" /></li>
+
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/20702054">你是如何自学 Python 的？</a> <span class="num">142 个回答</span><meta itemprop="followerCount" content="13613" /></li>
+
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/24549965">应该学习最新版本的 Python 3 还是旧版本的 Python 2？</a> <span class="num">124 个回答</span><meta itemprop="followerCount" content="1520" /></li>
+
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/20336475">初学 Python，有哪些 Pythonic 的源码推荐阅读？</a> <span class="num">26 个回答</span><meta itemprop="followerCount" content="2806" /></li>
+
+<li hidden itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/20746635">对 Quant 而言 Python 的需求高吗，除 C++ 外还有哪些流行的编程语言？</a> <span class="num">20 个回答</span><meta itemprop="followerCount" content="2549" /></li>
+
+<li hidden itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/19900260">使用 Python 会降低程序员的编程能力吗？</a> <span class="num">128 个回答</span><meta itemprop="followerCount" content="3068" /></li>
+
+<li hidden itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/22119753">业余时间如何学数据分析？</a> <span class="num">36 个回答</span><meta itemprop="followerCount" content="5918" /></li>
+
+<li hidden itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/21415613">一个程序只能用一种编程语言吗？</a> <span class="num">25 个回答</span><meta itemprop="followerCount" content="226" /></li>
+
+<li hidden itemprop="itemListElement" itemscope itemtype="http://schema.org/Question"><a class="question_link" href="/question/21486259">Meta Programming 主要解决什么了问题？</a> <span class="num">20 个回答</span><meta itemprop="followerCount" content="484" /></li>
+
+</ul>
+</div>
+</div>
+</div>
+<div class="zm-side-section zh-answer-status">
+<div class="zm-side-section-inner">
+<h3>回答状态</h3>
+<p>
+
+最后编辑于
+
+<span class="time">2016-03-01</span>
+</p>
+<p>
+所属问题被浏览 <strong>115946</strong> 次
+</p>
+<p class="copyright">
+
+<a href="/terms#sec-licence"><i class="icon icon-copyable"></i>作者保留所有权利</a>
+
+</p>
+</div>
+</div>
+<div class="shameimaru-placeholder" data-loc="answer_down" data-params='{&quot;question_token&quot;: 29372574}'></div>
+
+</div>
+
+
+</div>
+
+
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="mailto:bd@zhihu.com">商务合作</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2016 知乎</span>
+
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,null]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1456994338000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.fb23fa39.js"}</script>
+
+<script type="text/json" class="json-inline" data-name="current_question">{"status":"normal","isLocked":0,"detailEditReasonRequired":true,"editPermission":false,"isAnon":0,"qid":3931839,"urlToken":29372574,"askAboutMember":0}</script>
+<script type="text/json" class="json-inline" data-name="current_question_bio">{"selected_bio":null,"type":null,"value":""}</script>
+<script type="text/json" class="json-inline" data-name="current_answer">{"urlToken":88624507}</script>
+<script type="text/json" class="json-inline" data-name="draft">[]</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.ff76fbae.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.db6da521.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.7a8af122.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.6b7e102d.js"></script>
+<meta name="entry" content="ZH.entrySA" data-module-id="page-main">
+
+<script type="text/zscript" znonce="de1930dfe35d48ab8130520bc4e22c9b"></script>
+
+<input type="hidden" name="_xsrf" value="299790d54649c001b59b01891b964794"/>
+</body>
+</html>

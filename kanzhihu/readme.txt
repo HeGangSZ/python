@@ -1,0 +1,1 @@
+执行download将连接存到cPinkle中，执行downhtml将页面下载下来
